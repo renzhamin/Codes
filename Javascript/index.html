@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<!-- <meta http-equiv="refresh" content="1"> -->
+<head>
+	<title>Test</title>
+ 	<style>
+ 		.don[name="one"]{color: blue;}
+ 		#text{
+ 			width: 30em;height: 20em;
+ 		}
+ 		#L{
+ 			width: 100px; height: 100px;
+ 			background-color: red; display: block;
+ 		}
+ 	</style>
+ 	<script>
+		function OpenAndFocusHelp() {
+			let win=window.open('https://github.com','help');
+			win.focus();
+		}      
+	</script>
+</head>
+<body>
+<p class="don" >1</p>
+<p class="don" name="one">3123</p>
+<p class="don" name="two">3</p>
+<p class="don" name="two">4</p>
+<a id="L" onclick="OpenAndFocusHelp()">
+	A new Link.
+</a>
+<textarea id="text">
+</textarea>
+<script type="text/javascript" src="now.js"></script>>
+</body>
+</html>
+

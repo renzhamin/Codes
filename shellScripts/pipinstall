@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# a='$'$#
+# 
+# package=$(eval echo $a)
+# 
+# echo $package
+
+last="${@:$#}"
+
+other=${*%${!#}}
+echo $last
+echo $other
