@@ -2,11 +2,6 @@
 Java/lib
 *.class
 *.jar
-Web/
-OOP/
-revamp/
-ClassLinks/
-Games/
 test.cpp
 Program
 *.gch
@@ -14,11 +9,9 @@ Program
 *.o
 *.exe
 *.json
-The_Right_Angle/
 X/
-Canvas/
-Codeforce-EasySubmission/
 Runtime/
 shared/
 Projects/
+Testing/
 __pycache__

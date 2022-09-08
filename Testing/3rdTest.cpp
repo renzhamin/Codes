@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long 
 using namespace std;
-
 int main(){
-    cout<<"hello world"<<"\n";
+    set<pair<int,pair<int,int>>>p;
 }
