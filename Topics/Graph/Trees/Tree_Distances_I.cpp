@@ -2,6 +2,8 @@
 // CSES Tree Distances I
 
 /*
+    * Find maximum distance for all nodes
+
     Find the two corner nodes while finding diameter
     Now the maximum distance of any node is to one of these two corner nodes
 */

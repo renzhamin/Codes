@@ -1,3 +1,10 @@
+/*
+   CSES Tree Diameter
+   https://cses.fi/problemset/task/1131
+
+   Find the farthest node of any node, now that will be a corner node
+   Now find the farthest node from that corner node
+*/
 #include <bits/stdc++.h>
 #define ll long long 
 using namespace std;
@@ -21,8 +28,6 @@ void dfs(int u, int p=0, int d=0){
  
  
 int main(){
-    ios_base::sync_with_stdio(0),cin.tie(0);
- 
     cin>>n;
  
     adj = vector<vector<int>>(n+1);

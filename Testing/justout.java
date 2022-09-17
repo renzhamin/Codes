@@ -1,7 +1,5 @@
-package mariadb;
-import java.sql.*;
 
-class HelloWorld {
+class justout {
     public static void main(String[] args) {
         System.out.println("Hello");
     }
